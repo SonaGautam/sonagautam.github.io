@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<header class="container noselect">
+		<nav>
+			<a href="#"><li>Home</li></a>
+			<a href="#about"><li>About</li></a>
+			<a href="#skills"><li>Skills</li></a>
+			<a href="#contact"><li>Hire me</li></a>
+			<a id="toggleSwitch" class="switch"><li>Dark</li></a>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="centered_content">
+			<h2><span class="noselect hidden">.</span></h2>
+		</div>
+		<h4 class="hi_im">Hi 👋, I'm <span id="name" class="name"></span>!</h4>
+		<h5 class="center" id="skills"></h5>
+		<div class="buttons">
+		<a href="#about"><button class="left_button noselect">About me</button></a>
+		<a href="#contact"><button class="left_button_2 noselect">Hire me!</button></a>
+		</div>
+		<!-- The below commented code is for other contributors if contribute, this is the third style of buttons as arrow button. -->
+		<!--
+		<br>
+		<br>
+		<button class="left_button_3 noselect arrow_right_button"> Button 3</button>
+		-->
+		<div class="gap_1 noselect"></div>
+		<h2 id="about" class="noselect">About me</h2>
+		<p id="aboutme"></p>
+		<div class="gap_2 noselect"></div>
+		<h2 id="skills" class="noselect">Skills</h2>
+		<div class="skills noselect">
+   <div class="skill">
+      <div class="skill-title">
+         Acting Performance
+      </div>
+      <div class="skill-bar" id="skill1"><span></span></div>
+   </div>
+   <div class="skill">
+
+      <div class="skill-title">
+         Drawing Performance
+      </div>
+
+      <div class="skill-bar" id="skill2"><span></span></div>
+   </div>
+   <div class="skill">
+
+      <div class="skill-title">
+         Others
+      </div>
+
+      <div class="skill-bar" id="skill3"><span></span></div>
+   </div>
+
+</div>
+<div class="gap_1 noselect"></div>
+<h2 id="contact" class="noselect">Contact</h2>
+<form class="noselect" method="post" id="form">
+	<input type="text" placeholder="Name" required name="name">
+	<input type="email" placeholder="Email" required name="email">
+	<textarea placeholder="Your Message" rows="5" required name="message"></textarea>
+	<button type="submit" class="left_button submit_btn">Send</button>
+</form>
+
+<div class="social noselect">
+	<a href="tel:9303107001" target="_blank"><button class="social_button"><i class="fa fa-phone"></i></button></a>
+	<a href="mailto:Sona786gautam@gmail.com" target="_blank"><button class="social_button"><i class="fa fa-at"></i></button></a>
+	<!-- <button class="social_button"><i class="fa fa-twitter"></i></button> -->
+	<a href="https://www.youtube.com/channel/UCaqVFqWuzI9pr54T3_msPRA" target="_blank"><button class="social_button"><i class="fa fa-youtube"></i></button></a>
+	<a href="https://www.instagram.com/sona_gautamofficial/" target="_blank"><button class="social_button"><i class="fa fa-instagram"></i></button></a>
+	<a href="https://www.facebook.com/sona.gautam.3956" target="_blank"><button class="social_button"><i class="fa fa-facebook"></i></button></a>
+</div>
+<div class="gap_3"></div>
+<div class="centered_text noselect">Made with ❤️ by <a href="http://www.youtube.com/channel/UCfTTIgSYOwY3gmCI7YhisEA">Aasheesh Agarwal</a></div>
+	</div>
+
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>
